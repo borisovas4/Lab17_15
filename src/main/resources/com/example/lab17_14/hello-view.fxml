@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab17_15.HelloController">
+      <Label text="Number" />
+      <TextField fx:id="Number" text="0" />
+      <Button fx:id="ButtonOne" mnemonicParsing="false" onAction="#ClickButton1" text="+1" />
+      <Button fx:id="ButtonTwo" mnemonicParsing="false" onAction="#ClickButton2" text="-1" />
+</FlowPane>
